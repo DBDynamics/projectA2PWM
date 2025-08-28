@@ -1,2 +1,15 @@
-# projectA2PWM
-0-10V signal to 0-100% pwm amp with  5V power supply
+# 电路板定制开发
+
+## 功能描述
+检测0-10V模拟量 控制0-5V电压输出
+
+
+## 硬件设计
+<img src="image/pcb.png" alt="硬件" width="300px">
+
+## 参数
+- 供电：5V XH2.54-2P
+- 输入：0-10V模拟量 SH1.0-2P
+- 输出：0-5V电压 PWM调制 XH2.54-4P
+- MCU: CH32V203F8P6
+- 电源防反接：有
